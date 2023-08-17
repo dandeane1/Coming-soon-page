@@ -1,2 +1,24 @@
-@import "reset.css";
+@import 'reset.css';
+:root {
+    --clr-priamry: #EE8B8B;
+    --clr-primary-gradient:linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    --clr-secondary:#EE8B8B;
+    --clr-dark: #423A3A;
+    --clr-light: #ffffff;
 
+}
+
+.page-wrapper {
+    display:flex;
+    min-height: 100vh;
+    background-color:
+}
+
+.left-side {
+    flex: 2 0 0;
+    background: var(--clr-primary-gradient);
+}
+
+.right-side{
+    flex: 1 0 0;
+}
