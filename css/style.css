@@ -23,7 +23,7 @@ body{
     flex: 2 0 0;
     /*background: var(--clr-primary-gradient);*/
     display: flex;
-    align-items: start;
+    align-items: stretch;
     justify-content: center;
     padding: 75px;
 }
@@ -42,7 +42,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 133px;
+
 }
 
 .logo-wrapper{
@@ -55,7 +55,9 @@ body{
 .text-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 32px;
+    flex-grow: 1 0 0;
 
 }
 .text-container h1{
